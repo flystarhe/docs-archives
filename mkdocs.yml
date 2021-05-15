@@ -1,0 +1,21 @@
+site_name: Docs 2020 plus
+site_url: https://flystarhe.github.io/docs-2020-plus/
+site_description: Computer vision and machine learning
+site_author: Hej
+
+repo_url: https://github.com/flystarhe/docs-2020-plus/
+copyright: Copyright &copy; 2020 Hej
+
+docs_dir: docs_md
+site_dir: site
+
+theme:
+    name: material
+
+plugins:
+    - search:
+        lang: ['en']
+        separator: '[\s\-\.]+'
+
+extra_javascript:
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
